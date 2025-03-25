@@ -1,0 +1,46 @@
+
+#include <stdio.h>
+int main() {
+    int isMember, amount;
+    printf("Are you a member? (1 for Yes, 0 for No): ");
+    scanf("%d", &isMember);
+    printf("Enter purchase amount: ");
+    scanf("%d", &amount);
+
+    if (isMember == 1) {  // Outer condition
+        if (amount >= 1000) {  // Inner condition
+            printf("You get a 20%% discount.\n");
+        } else {
+            printf("You get a 10%% discount.\n");
+        }
+    } else {
+        printf("No discount available.\n");
+    }
+
+    return 0;
+}
+
+Output:
+
+#include <stdio.h>
+int main() {
+    int isMember, amount;
+    printf("Are you a member? (1 for Yes, 0 for No): ");
+    scanf("%d", &isMember);
+    printf("Enter purchase amount: ");
+    scanf("%d", &amount);
+
+    if (isMember == 1) {  // Outer condition
+        if (amount >= 1000) {  // Inner condition
+            printf("You get a 20%% discount.\n");
+        } else {
+            printf("You get a 10%% discount.\n");
+        }
+    } else {
+        printf("No discount available.\n");
+    }
+
+    return 0;
+}
+
+Output:
