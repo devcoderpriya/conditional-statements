@@ -1,0 +1,28 @@
+#include  <stdio.h> 
+
+int main() {
+    int age = 20;
+
+    // Check if age is less than 18
+    if (age  <  18) {
+        printf("Category: Minor
+");
+        printf("Not eligible to vote.
+");
+    } else {
+        // Age is 18 or above, check if age is 65 or below
+        if (age  < = 65) {
+            printf("Category: Adult
+");
+            printf("Eligible to vote.
+");
+        } else {
+            // Age is above 65
+            printf("Category: Senior
+");
+            printf("Eligible to vote.
+");
+        }
+    }
+    return 0;
+}
