@@ -1,0 +1,21 @@
+include<stdio.h>
+int main(){
+   int side1;
+   printf("enter the 1st side of triangle :");
+   scanf("%d",&side1);
+   int side2;
+   printf("enter the  2nd side of triangle :");
+   scanf("%d",&side2);
+    int side3;
+    printf("enter the 3rd side of triangle :");
+   scanf("%d",&side3);
+   {
+   if(side1 == side2 && side2 == side3)
+      printf("Triangle is equilateral");
+  if(side1 == side2 || side2 == side3 || side3 == side1)
+      printf(" Triangle is isosceles");
+   else
+      printf(" Triangle is scalene");
+   }
+   return 0;
+}
