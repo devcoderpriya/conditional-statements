@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+int main() {
+  int p;
+  // Taking point as user input
+  scanf("%d", & p);
+
+  if (p > 50) {
+    // Outer if statement
+    if (p < 100) {
+      printf("Hooray! Your prize is a Coding Ninjas T-shirt.\n");
+    } 
+    
+    else {
+      printf("You prize is a Coding Ninjas T-shirt and Diary");
+    }
+  } 
+  
+  else {
+    printf("You prize is a Coding Ninjas Diary");
+  }
+
+  return 0;
+}
