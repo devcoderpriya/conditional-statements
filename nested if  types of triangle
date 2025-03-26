@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+    int side1;
+printf("enter the number:");
+scanf("%d",&side1);
+int side2;
+printf("enter the number:");
+scanf("%d",&side2);
+int side3;
+printf("enter the number:");
+scanf("%d",&side3);
+if(side1==side2){
+    if(side2==side3){
+        printf("equlateral triangle");
+    }
+    else
+    printf("isoceles triangle");
+}
+else
+if(side2==side3){
+    printf("isoceles triangle");
+}
+else
+if(side1==side3)
+printf("isoceles triangle");
+else
+printf("scalen triangle");
+return 0;
+
+}
