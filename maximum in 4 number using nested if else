@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter the number: ");
+    scanf("%d", &a);
+    int b;
+    printf("enter the number: ");
+    scanf("%d", &b);
+    int c;
+    printf("enter the number: ");
+    scanf("%d", &c);
+    int d;
+    printf("enter the number: ");
+    scanf("%d", &d);
+
+    if (a > b) {
+        if (a > c) {
+            if (a > d) {
+                printf("a is greater\n");
+            } else {
+                printf("d is greater\n");
+            }
+        } else {
+            if (c > d) {
+                printf("c is greater\n");
+            } else {
+                printf("d is greater\n");
+            }
+        }
+    } else { // b >= a
+        if (b > c) {
+            if (b > d) {
+                printf("b is greater\n");
+            } else {
+                printf("d is greater\n");
+            }
+        } else { // c >= b
+            if (c > d) {
+                printf("c is greater\n");
+            } else {
+                printf("d is greater\n");
+            }
+        }
+    }
+
+    return 0;
+}
