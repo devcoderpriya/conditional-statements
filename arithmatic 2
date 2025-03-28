@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+
+   int a = 23, b = 20, result;
+
+   // Using Modulus operator
+   result = a%b;
+
+   printf("result = %d",result);
+
+   return 0;
+
+}
