@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+
+   int a = 20, b = 20, result;
+
+   /* Using ternary operator
+      - If a == b then store a+b in result
+      - otherwise store a-b in result
+   */
+   result = (a==b)?(a+b):(a-b);
+
+   printf("result = %d",result);
+
+   return 0;
+
+}
