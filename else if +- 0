@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+int a;
+printf("enter the number \n");
+scanf("%d", &a);
+if(a > 0){
+printf("your number is positive");
+}
+else if(a == 0){
+printf("your number is zero");
+}
+else if(a < 0){
+printf("your number is negative");
+}
+else{
+("not defined");
+}
+
+return 0;
+}
