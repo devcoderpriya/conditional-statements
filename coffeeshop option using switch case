@@ -1,0 +1,26 @@
+int main()
+{
+    int coffeeshop;
+    printf("enter the option :");
+    scanf("%d",&coffeeshop);
+    
+     switch(coffeeshop)
+     {
+         case 1:
+         printf("cuppichnno");
+         break;
+          
+         case 2:
+         printf("tea");
+         break;
+         
+          case 3:
+          printf("americano");
+          break;
+          
+          default:
+          printf("invalid option");
+         break;
+     }
+    return 0;
+}
