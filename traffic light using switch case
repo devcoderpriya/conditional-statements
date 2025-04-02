@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    char trafficlight;
+    printf("enter the colour :");
+    scanf("%c",&trafficlight);
+    
+     switch(trafficlight)
+     {
+         case 'a':
+         case 'A':
+         printf("red");
+         break;
+          
+         case 'b':
+         case 'B':
+         printf("green");
+         break;
+         
+          case 'c':
+          case 'C':
+          printf("yellow");
+          break;
+          
+          default:
+          printf("invalid option");
+         break;
+     }
+    return 0;
+}
