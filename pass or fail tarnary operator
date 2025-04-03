@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int marks = 85;
+
+    // Using ternary operator to assign a grade
+    char* grade = (marks >= 50) ? "Pass" : "Fail";
+
+    printf("Marks: %d, Result: %s\n", marks, grade);
+    return 0;
+}
