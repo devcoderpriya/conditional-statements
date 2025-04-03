@@ -1,0 +1,29 @@
+#include 
+int main() {
+   
+    int age;
+   
+    printf("Enter your age: ");
+   
+    scanf("%d", &age);
+   
+  
+   
+    const char* status;
+   
+    if(age < 18)
+   
+        status = "minor";
+   
+    else
+   
+        status = "adult";
+   
+    printf("You are: %s\n", status);
+   
+    return 0;
+   
+}
+   
+
+  
