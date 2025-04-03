@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int num = -5;
+
+    // Using ternary operator to check if the number is positive or negative
+    char* result = (num >= 0) ? "Positive" : "Negative";
+
+    printf("The number %d is %s\n", num, result);
+    return 0;
+}
