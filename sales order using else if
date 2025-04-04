@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+int purchesamount;
+printf("enter the amount:");
+scanf("%d",&purchesamount);
+ if(amount>=5000)
+ {
+ printf("20% discount");
+ }
+ else if(amount2000>=5000);
+ {
+ printf("10% discount");
+ }
+else if(amount<_2000)
+{
+printf("no discount");
+}
+else
+{
+printf("invalid input");
+}
+return 0;
+}
