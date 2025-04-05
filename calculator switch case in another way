@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main ()
+{
+  char OPERATOR = '+';
+  int a = 20, b = 10;
+  switch (OPERATOR)
+    {
+    case '+':
+      printf ("ADDITION %d", a + b);
+      break;
+    case '-':
+      printf ("SUBTRACTION %d", a - b);
+      break;
+    case '*':
+      printf ("MULTIPLICATION %d", a * b);
+      break;
+    case '/':
+      printf ("DIVISION %d", a / b);
+      break;
+    default:
+      printf ("No special cases");
+      break;
+    }
+  printf (" Done with switch case");
+  return 0;
+}
+Output
