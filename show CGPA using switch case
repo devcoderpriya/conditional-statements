@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main ()
+{
+  int CGPA;
+  printf ("Tell me your CGPA");
+  scanf ("%d", &CGPA);
+  printf("%d\n",CGPA);
+  switch (CGPA)
+    {
+    case 8:
+      printf ("You got 8 CGPA.\n");
+      break;
+    case 10:
+      printf ("You got 10 CGPA.\n");
+      break;
+    case 7:
+      printf ("You got 7 CGPA.\n");
+      break;
+    default:
+      printf ("No special cases.\n");
+      break;
+    }
+  printf ("Done with switch case.\n");
+  return 0;
+}
