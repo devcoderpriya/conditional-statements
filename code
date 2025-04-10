@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int sp;
+    printf("Enter an alphabet: ");
+    scanf(" %d", &sp);
+    int ep;
+    printf("Enter an alphabet: ");
+    scanf(" %d", &ep);
+    int count=0;
+  int newnum=sp+1;
+
+    while (sp<ep)
+    {
+        count++;
+       newnum++;
+    }
+   printf("%d",count);
+
+    return 0;
+}
