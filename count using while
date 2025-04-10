@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int sp;
+    printf("enter the number: ");
+    scanf("%d",&sp);
+   int ep;
+    printf("enter the number: ");
+    scanf("%d",&ep);
+    int count=0;
+    int newnum=sp+1;
+    while(newnum<ep)
+    {
+        count++;
+        newnum++;
+    }
+    printf("%d",count);
+    return 0;
+}
