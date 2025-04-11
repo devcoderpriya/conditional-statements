@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int pin = 1234, input;
+    while (1) {  // Infinite loop
+        printf("Enter your PIN: ");
+        scanf("%d", &input);
+        if (input == pin) {
+            printf("Access granted!\n");
+            break;  // Exit the loop
+        } else {
+            printf("Incorrect PIN. Try again.\n");
+        }
+    }
+    return 0;
+}
